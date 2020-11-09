@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct UniveralLinkAppAApp: App {
+    @State var tag: Tag?
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(tag: tag)
+                .onOpenURL { url in
+                    print("universal link: \(url)")
+                    tag = Tag(id: url.lastPathComponent)
+                }
         }
     }
+
+}
+
+struct Tag {
+    let id: String
 }

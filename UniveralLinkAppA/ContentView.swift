@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var tag: Tag?
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("App A")
+        if let tag = tag {
+            Text("Tag \(tag.id)")
+                .padding()
+        } else {
+            Text(tag?.id ?? "No Tag")
+                .padding()
+        }
     }
 }
 

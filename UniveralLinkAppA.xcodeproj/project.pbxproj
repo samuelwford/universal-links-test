@@ -20,6 +20,7 @@
 		3262229B255998CE00060FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3262229E255998CE00060FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		326222A0255998CE00060FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F420692559B37600F60BB0 /* UniveralLinkAppA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniveralLinkAppA.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		32622296255998CC00060FE5 /* UniveralLinkAppA */ = {
 			isa = PBXGroup;
 			children = (
+				32F420692559B37600F60BB0 /* UniveralLinkAppA.entitlements */,
 				32622297255998CC00060FE5 /* UniveralLinkAppAApp.swift */,
 				32622299255998CC00060FE5 /* ContentView.swift */,
 				3262229B255998CE00060FE5 /* Assets.xcassets */,
@@ -267,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniveralLinkAppA/UniveralLinkAppA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UniveralLinkAppA/Preview Content\"";
 				DEVELOPMENT_TEAM = RZAZR374R3;
@@ -289,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniveralLinkAppA/UniveralLinkAppA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UniveralLinkAppA/Preview Content\"";
 				DEVELOPMENT_TEAM = RZAZR374R3;
