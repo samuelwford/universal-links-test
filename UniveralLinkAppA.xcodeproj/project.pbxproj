@@ -11,6 +11,10 @@
 		3262229A255998CC00060FE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32622299255998CC00060FE5 /* ContentView.swift */; };
 		3262229C255998CE00060FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3262229B255998CE00060FE5 /* Assets.xcassets */; };
 		3262229F255998CE00060FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3262229E255998CE00060FE5 /* Preview Assets.xcassets */; };
+		32F420772559F4E800F60BB0 /* UniveralLinkAppBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F420762559F4E800F60BB0 /* UniveralLinkAppBApp.swift */; };
+		32F420792559F4E800F60BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F420782559F4E800F60BB0 /* ContentView.swift */; };
+		32F4207B2559F4E900F60BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F4207A2559F4E900F60BB0 /* Assets.xcassets */; };
+		32F4207E2559F4E900F60BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F4207D2559F4E900F60BB0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +25,25 @@
 		3262229E255998CE00060FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		326222A0255998CE00060FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32F420692559B37600F60BB0 /* UniveralLinkAppA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniveralLinkAppA.entitlements; sourceTree = "<group>"; };
+		32F420742559F4E800F60BB0 /* UniveralLinkAppB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniveralLinkAppB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F420762559F4E800F60BB0 /* UniveralLinkAppBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniveralLinkAppBApp.swift; sourceTree = "<group>"; };
+		32F420782559F4E800F60BB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32F4207A2559F4E900F60BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32F4207D2559F4E900F60BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32F4207F2559F4E900F60BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F42085255A06A200F60BB0 /* UniveralLinkAppB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniveralLinkAppB.entitlements; sourceTree = "<group>"; };
+		32F42089255A08C900F60BB0 /* apple-app-site-association */ = {isa = PBXFileReference; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		32622291255998CC00060FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F420712559F4E800F60BB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,7 +56,9 @@
 		3262228B255998CC00060FE5 = {
 			isa = PBXGroup;
 			children = (
+				32F42088255A089D00F60BB0 /* Website */,
 				32622296255998CC00060FE5 /* UniveralLinkAppA */,
+				32F420752559F4E800F60BB0 /* UniveralLinkAppB */,
 				32622295255998CC00060FE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				32622294255998CC00060FE5 /* UniveralLinkAppA.app */,
+				32F420742559F4E800F60BB0 /* UniveralLinkAppB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +93,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		32F420752559F4E800F60BB0 /* UniveralLinkAppB */ = {
+			isa = PBXGroup;
+			children = (
+				32F42085255A06A200F60BB0 /* UniveralLinkAppB.entitlements */,
+				32F420762559F4E800F60BB0 /* UniveralLinkAppBApp.swift */,
+				32F420782559F4E800F60BB0 /* ContentView.swift */,
+				32F4207A2559F4E900F60BB0 /* Assets.xcassets */,
+				32F4207F2559F4E900F60BB0 /* Info.plist */,
+				32F4207C2559F4E900F60BB0 /* Preview Content */,
+			);
+			path = UniveralLinkAppB;
+			sourceTree = "<group>";
+		};
+		32F4207C2559F4E900F60BB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32F4207D2559F4E900F60BB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32F42088255A089D00F60BB0 /* Website */ = {
+			isa = PBXGroup;
+			children = (
+				32F42089255A08C900F60BB0 /* apple-app-site-association */,
+			);
+			path = Website;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,17 +142,37 @@
 			productReference = 32622294255998CC00060FE5 /* UniveralLinkAppA.app */;
 			productType = "com.apple.product-type.application";
 		};
+		32F420732559F4E800F60BB0 /* UniveralLinkAppB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F420802559F4E900F60BB0 /* Build configuration list for PBXNativeTarget "UniveralLinkAppB" */;
+			buildPhases = (
+				32F420702559F4E800F60BB0 /* Sources */,
+				32F420712559F4E800F60BB0 /* Frameworks */,
+				32F420722559F4E800F60BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniveralLinkAppB;
+			productName = UniveralLinkAppB;
+			productReference = 32F420742559F4E800F60BB0 /* UniveralLinkAppB.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3262228C255998CC00060FE5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1210;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					32622293255998CC00060FE5 = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					32F420732559F4E800F60BB0 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -119,6 +190,7 @@
 			projectRoot = "";
 			targets = (
 				32622293255998CC00060FE5 /* UniveralLinkAppA */,
+				32F420732559F4E800F60BB0 /* UniveralLinkAppB */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +205,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32F420722559F4E800F60BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F4207E2559F4E900F60BB0 /* Preview Assets.xcassets in Resources */,
+				32F4207B2559F4E900F60BB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,6 +223,15 @@
 			files = (
 				3262229A255998CC00060FE5 /* ContentView.swift in Sources */,
 				32622298255998CC00060FE5 /* UniveralLinkAppAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F420702559F4E800F60BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F420792559F4E800F60BB0 /* ContentView.swift in Sources */,
+				32F420772559F4E800F60BB0 /* UniveralLinkAppBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +400,52 @@
 			};
 			name = Release;
 		};
+		32F420812559F4E900F60BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniveralLinkAppB/UniveralLinkAppB.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UniveralLinkAppB/Preview Content\"";
+				DEVELOPMENT_TEAM = RZAZR374R3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UniveralLinkAppB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.causticmango.UniveralLinkAppB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32F420822559F4E900F60BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniveralLinkAppB/UniveralLinkAppB.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UniveralLinkAppB/Preview Content\"";
+				DEVELOPMENT_TEAM = RZAZR374R3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UniveralLinkAppB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.causticmango.UniveralLinkAppB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +463,15 @@
 			buildConfigurations = (
 				326222A4255998CE00060FE5 /* Debug */,
 				326222A5255998CE00060FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F420802559F4E900F60BB0 /* Build configuration list for PBXNativeTarget "UniveralLinkAppB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F420812559F4E900F60BB0 /* Debug */,
+				32F420822559F4E900F60BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
