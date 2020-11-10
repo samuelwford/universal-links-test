@@ -33,6 +33,7 @@
 		32F4207F2559F4E900F60BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32F42085255A06A200F60BB0 /* UniveralLinkAppB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniveralLinkAppB.entitlements; sourceTree = "<group>"; };
 		32F42089255A08C900F60BB0 /* apple-app-site-association */ = {isa = PBXFileReference; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
+		32F4208A255A08EE00F60BB0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		3262228B255998CC00060FE5 = {
 			isa = PBXGroup;
 			children = (
+				32F4208A255A08EE00F60BB0 /* README.md */,
 				32F42088255A089D00F60BB0 /* Website */,
 				32622296255998CC00060FE5 /* UniveralLinkAppA */,
 				32F420752559F4E800F60BB0 /* UniveralLinkAppB */,
