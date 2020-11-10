@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		32622298255998CC00060FE5 /* UniveralLinkAppAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32622297255998CC00060FE5 /* UniveralLinkAppAApp.swift */; };
-		3262229A255998CC00060FE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32622299255998CC00060FE5 /* ContentView.swift */; };
 		3262229C255998CE00060FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3262229B255998CE00060FE5 /* Assets.xcassets */; };
 		3262229F255998CE00060FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3262229E255998CE00060FE5 /* Preview Assets.xcassets */; };
+		326F24BE255AF8CA007117DE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCCAB3255AF7C600D54946 /* CardView.swift */; };
+		326F24C1255AF8CC007117DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F420782559F4E800F60BB0 /* ContentView.swift */; };
+		32BCCAB4255AF7C600D54946 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCCAB3255AF7C600D54946 /* CardView.swift */; };
 		32F420772559F4E800F60BB0 /* UniveralLinkAppBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F420762559F4E800F60BB0 /* UniveralLinkAppBApp.swift */; };
 		32F420792559F4E800F60BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F420782559F4E800F60BB0 /* ContentView.swift */; };
 		32F4207B2559F4E900F60BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F4207A2559F4E900F60BB0 /* Assets.xcassets */; };
@@ -20,10 +22,10 @@
 /* Begin PBXFileReference section */
 		32622294255998CC00060FE5 /* UniveralLinkAppA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniveralLinkAppA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32622297255998CC00060FE5 /* UniveralLinkAppAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniveralLinkAppAApp.swift; sourceTree = "<group>"; };
-		32622299255998CC00060FE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3262229B255998CE00060FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3262229E255998CE00060FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		326222A0255998CE00060FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCCAB3255AF7C600D54946 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		32F420692559B37600F60BB0 /* UniveralLinkAppA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniveralLinkAppA.entitlements; sourceTree = "<group>"; };
 		32F420742559F4E800F60BB0 /* UniveralLinkAppB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniveralLinkAppB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F420762559F4E800F60BB0 /* UniveralLinkAppBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniveralLinkAppBApp.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				32F42088255A089D00F60BB0 /* Website */,
 				32622296255998CC00060FE5 /* UniveralLinkAppA */,
 				32F420752559F4E800F60BB0 /* UniveralLinkAppB */,
+				32BCCAA1255AEA3300D54946 /* Shared */,
 				32622295255998CC00060FE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,7 +82,6 @@
 			children = (
 				32F420692559B37600F60BB0 /* UniveralLinkAppA.entitlements */,
 				32622297255998CC00060FE5 /* UniveralLinkAppAApp.swift */,
-				32622299255998CC00060FE5 /* ContentView.swift */,
 				3262229B255998CE00060FE5 /* Assets.xcassets */,
 				326222A0255998CE00060FE5 /* Info.plist */,
 				3262229D255998CE00060FE5 /* Preview Content */,
@@ -95,12 +97,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		32BCCAA1255AEA3300D54946 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				32BCCAB3255AF7C600D54946 /* CardView.swift */,
+				32F420782559F4E800F60BB0 /* ContentView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		32F420752559F4E800F60BB0 /* UniveralLinkAppB */ = {
 			isa = PBXGroup;
 			children = (
 				32F42085255A06A200F60BB0 /* UniveralLinkAppB.entitlements */,
 				32F420762559F4E800F60BB0 /* UniveralLinkAppBApp.swift */,
-				32F420782559F4E800F60BB0 /* ContentView.swift */,
 				32F4207A2559F4E900F60BB0 /* Assets.xcassets */,
 				32F4207F2559F4E900F60BB0 /* Info.plist */,
 				32F4207C2559F4E900F60BB0 /* Preview Content */,
@@ -223,7 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3262229A255998CC00060FE5 /* ContentView.swift in Sources */,
+				326F24BE255AF8CA007117DE /* CardView.swift in Sources */,
+				326F24C1255AF8CC007117DE /* ContentView.swift in Sources */,
 				32622298255998CC00060FE5 /* UniveralLinkAppAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F420792559F4E800F60BB0 /* ContentView.swift in Sources */,
+				32BCCAB4255AF7C600D54946 /* CardView.swift in Sources */,
 				32F420772559F4E800F60BB0 /* UniveralLinkAppBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

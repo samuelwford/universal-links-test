@@ -5,13 +5,15 @@
       {
         "appID": "RZAZR374R3.com.causticmango.UniveralLinkAppA",
         "paths": [
-          "*"
+          "/tag/*",
+          "/app-a/*"
         ]
       },
       {
         "appID": "RZAZR374R3.com.causticmango.UniveralLinkAppB",
         "paths": [
-          "*"
+          "/tag/*",
+          "/app-b/*"
         ]
       }
     ]

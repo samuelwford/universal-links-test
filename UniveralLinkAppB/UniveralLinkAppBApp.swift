@@ -9,19 +9,18 @@ import SwiftUI
 
 @main
 struct UniveralLinkAppBApp: App {
-    @State var tag: Tag?
+    @State var card: Card = .none
     
     var body: some Scene {
         WindowGroup {
-            ContentView(tag: tag)
+            ContentView(title: "App B", card: card)
                 .onOpenURL { url in
-                    print("universal link: \(url)")
-                    tag = Tag(id: url.lastPathComponent)
+                    card = .link(path: url.path)
+                }
+                .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { activity in
+                    guard let url = activity.webpageURL else { return }
+                    card = .tag(id: url.lastPathComponent)
                 }
         }
     }
-}
-
-struct Tag {
-    let id: String
 }
