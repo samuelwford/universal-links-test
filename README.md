@@ -20,4 +20,4 @@ The best way to test a universal link is to put the test links in a note and tap
 
 The intent of the apps is to test what happens when two apps on the same device are both registered to receive universal links.
 
-If both apps are installed, what should happen is that paths that match a specific app, like "/app-a/test" or "/app-b/test", should launch the correct app whereas paths that match both apps, like "/tag/123", should offer a choice of which app to launch. In some circumstances it may instead launch the first app listed in the AASA file or the most recently installed app.
+If both apps are installed, what should happen is that paths that match a specific app, like "/app-a/test" or "/app-b/test", should launch the correct app whereas paths that match both apps, like "/tag/123", should offer a choice of which app to launch the first time a tag is scanned. Subsequent tag reads will open the same app.
